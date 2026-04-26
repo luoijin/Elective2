@@ -1,0 +1,26 @@
+/* App.css - Global Styles for Adventure Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: #FFFDF0;
+  color: #2D2424;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+}
+
+::selection {
+  background: #FFD52E;
+  color: #2D2424;
+}

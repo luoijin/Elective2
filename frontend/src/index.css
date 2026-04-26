@@ -1,0 +1,25 @@
+/* index.css - Base Styles */
+:root {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #FFFDF0;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

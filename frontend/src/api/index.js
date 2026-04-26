@@ -1,0 +1,1 @@
+export { fetchUsers, fetchUserById } from './user';
