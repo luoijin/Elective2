@@ -24,40 +24,40 @@ A modern, responsive React component for displaying and managing user profiles w
 ## 📁 Project Structure
 
 
-User-Management/
+Users/
 ├── backend/
 │ ├── config/
-│ │ └── db.js
+│ │ └── db.js # Database configuration
 │ ├── controllers/
-│ │ └── userController.js
+│ │ └── userController.js # User CRUD operations
 │ ├── models/
-│ │ └── usersModel.js
+│ │ └── usersModel.js # User schema model
 │ ├── routes/
-│ │ └── userRoute.js
-│ ├── .env
-│ ├── server.js
-│ └── package.json
+│ │ └── userRoute.js # API routes
+│ ├── .env # Environment variables
+│ ├── server.js # Express server entry
+│ └── package.json # Backend dependencies
 ├── frontend/
 │ ├── src/
 │ │ ├── api/
-│ │ │ ├── index.js
-│ │ │ └── user.js
+│ │ │ ├── index.js # API configuration
+│ │ │ └── user.js # User API calls
 │ │ ├── components/
 │ │ │ └── GetUsers/
-│ │ │ ├── GetUsers.jsx
-│ │ │ ├── GetUsers.css
-│ │ │ └── index.jsx
+│ │ │ ├── GetUsers.jsx # Main component
+│ │ │ ├── GetUsers.css # Component styles
+│ │ │ └── index.jsx # Component export
 │ │ ├── utils/
-│ │ │ ├── index.js
-│ │ │ └── getUsers.js
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── index.css
-│ │ └── main.jsx
-│ ├── index.html
-│ ├── vite.config.js
-│ └── package.json
-└── README.md
+│ │ │ ├── index.js # Utility exports
+│ │ │ └── getUsers.js # Helper functions
+│ │ ├── App.jsx # Main App component
+│ │ ├── App.css # App styles
+│ │ ├── index.css # Global styles
+│ │ └── main.jsx # React entry point
+│ ├── index.html # HTML template
+│ ├── vite.config.js # Vite configuration
+│ └── package.json # Frontend dependencies
+└── README.md # Project documentation
 
 ---
 
