@@ -1,19 +1,17 @@
 :root {
-  /* Pastel Adventure Time Color Palette */
-  --primary: #FFF0B5;        /* Pastel Jake Yellow */
-  --primary-dark: #FFE48A;   /* Darker Pastel Yellow */
-  --secondary: #7EC8FF;      /* Pastel Finn Blue */
-  --secondary-dark: #5BAEE6; /* Darker Pastel Blue */
-  --background: #FFFDF5;     /* Warm Paper Cream */
+  --primary: #FFF0B5;       
+  --primary-dark: #FFE48A;  
+  --secondary: #7EC8FF;      
+  --secondary-dark: #5BAEE6; 
+  --background: #FFFDF5;     
   --surface: #FFFFFF;
-  --text-primary: #4A3B3B;   /* Soft Dark Brown - Less contrast */
-  --text-secondary: #9B8B8B; /* Muted Brown/Gray */
-  --border: #E8E0D5;         /* Soft border */
-  --accent: #FFB347;         /* Pastel Orange */
-  --success: #A8E6CF;        /* Pastel Green */
-  --error: #FFB3BA;          /* Pastel Red */
+  --text-primary: #4A3B3B;   
+  --text-secondary: #9B8B8B;
+  --border: #E8E0D5;         
+  --accent: #FFB347;        
+  --success: #A8E6CF;       
+  --error: #FFB3BA;       
   
-  /* Shared Styles */
   --border-width: 1px;
   --border-style: solid;
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -35,7 +33,6 @@
   color: var(--text-primary);
 }
 
-/* Header Styles - Consistent with theme */
 .app-header {
   background: var(--surface);
   border-bottom: var(--border-width) var(--border-style) var(--border);
