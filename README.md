@@ -1,12 +1,6 @@
 # User Management System
 
-A full-stack MERN (MongoDB, Express, React, Node.js) application for managing users. Features a modern, responsive UI with search functionality and user detail views.
-
----
-
-## 📸 Screenshots
-
-![User Management Dashboard](screenshot.png)
+A modern, responsive React component for displaying and managing user profiles with search functionality and detailed user views.
 
 ---
 
@@ -65,28 +59,6 @@ User-Management/
 │ └── package.json
 └── README.md
 
-## 🚀 Features
-
-- 📋 Display all users in card layout
-- 🔍 Search users by name, email, or username
-- 👤 View detailed user information in modal
-- 👑 Admin badge for admin users
-- 🔄 Real-time refresh
-- 📱 Fully responsive design
-- ⚡ Loading states and error handling
-- 🎨 Clean, modern UI
-
----
-
-## 📋 Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-1. **[Node.js](https://nodejs.org/)** (LTS version recommended)
-2. **[MongoDB](https://www.mongodb.com/try/download/community)** (Community Server)
-3. **[MongoDB Compass](https://www.mongodb.com/products/compass)** (Optional - for viewing data)
-4. **[Git](https://git-scm.com/)** (For cloning the repository)
-
 ---
 
 ## 🔧 Installation & Setup
@@ -94,7 +66,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 
-git clone https://github.com/janninobansag/User-Management.git
+git clone https://github.com/luoijin/Elective2.git
 cd User-Management
 
 2. Backend Setup
@@ -128,26 +100,26 @@ Insert the following sample data:
 
 [
   {
-    "firstName": "Manish",
-    "lastName": "Mandal",
-    "userName": "Manntrix",
-    "email": "admin@gmail.com",
-    "password": "asdfg123",
+    "firstName": "Anne Loraine",
+    "lastName": "Pardillo",
+    "userName": "loraine",
+    "email": "loraine@gmail.com",
+    "password": "qweqwe",
     "isAdmin": true
   },
   {
-    "firstName": "John",
-    "lastName": "Doe",
-    "userName": "Johndoe",
-    "email": "johndoe@gmail.com",
-    "password": "asdfg123"
+    "firstName": "Shyna",
+    "lastName": "Labay",
+    "userName": "shy",
+    "email": "shy@gmail.com",
+    "password": "asdasd"
   },
   {
-    "firstName": "Demo",
-    "lastName": "test",
-    "userName": "Demo",
-    "email": "demo@gmail.com",
-    "password": "asdfg123"
+    "firstName": "Laica",
+    "lastName": "Cabatana",
+    "userName": "lai",
+    "email": "lai@gmail.com",
+    "password": "asdasd"
   }
 ]
 
