@@ -23,41 +23,42 @@ A modern, responsive React component for displaying and managing user profiles w
 
 ## 📁 Project Structure
 
-
+```
 Users/
 ├── backend/
-│ ├── config/
-│ │ └── db.js
-│ ├── controllers/
-│ │ └── userController.js
-│ ├── models/
-│ │ └── usersModel.js
-│ ├── routes/
-│ │ └── userRoute.js
-│ ├── .env
-│ ├── server.js
-│ └── package.json
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── userController.js
+│   ├── models/
+│   │   └── usersModel.js
+│   ├── routes/
+│   │   └── userRoute.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
 ├── frontend/
-│ ├── src/
-│ │ ├── api/
-│ │ │ ├── index.js
-│ │ │ └── user.js
-│ │ ├── components/
-│ │ │ └── GetUsers/
-│ │ │ ├── GetUsers.jsx
-│ │ │ ├── GetUsers.css
-│ │ │ └── index.jsx
-│ │ ├── utils/
-│ │ │ ├── index.js
-│ │ │ └── getUsers.js
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── index.css
-│ │ └── main.jsx
-│ ├── index.html
-│ ├── vite.config.js
-│ └── package.json
+│   ├── src/
+│   │   ├── api/
+│   │   │   ├── index.js
+│   │   │   └── user.js
+│   │   ├── components/
+│   │   │   └── GetUsers/
+│   │   │       ├── GetUsers.jsx
+│   │   │       ├── GetUsers.css
+│   │   │       └── index.jsx
+│   │   ├── utils/
+│   │   │   ├── index.js
+│   │   │   └── getUsers.js
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── vite.config.js
+│   └── package.json
 └── README.md
+```
 
 ---
 
