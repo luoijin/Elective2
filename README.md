@@ -66,18 +66,15 @@ Users/
 
 ### 1. Clone the Repository
 
-
 git clone https://github.com/luoijin/Elective2.git
-cd User-Management
 
 2. Backend Setup
 
 cd backend
 npm install
 
-Create a .env file in the backend folder with the following:
+Create a .env file 
 
-text
 PORT=5000
 MONGO_URL=mongodb://localhost:27017/mern_setup
 
