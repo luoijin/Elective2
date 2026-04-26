@@ -24,8 +24,7 @@ A modern, responsive React component for displaying and managing user profiles w
 ## 📁 Project Structure
 
 
-User-Management/
-│
+Users/
 ├── backend/
 │ ├── config/
 │ │ └── db.js
@@ -38,7 +37,6 @@ User-Management/
 │ ├── .env
 │ ├── server.js
 │ └── package.json
-│
 ├── frontend/
 │ ├── src/
 │ │ ├── api/
@@ -48,7 +46,7 @@ User-Management/
 │ │ │ └── GetUsers/
 │ │ │ ├── GetUsers.jsx
 │ │ │ ├── GetUsers.css
-│ │ │ └── index.js
+│ │ │ └── index.jsx
 │ │ ├── utils/
 │ │ │ ├── index.js
 │ │ │ └── getUsers.js
@@ -59,7 +57,6 @@ User-Management/
 │ ├── index.html
 │ ├── vite.config.js
 │ └── package.json
-│
 └── README.md
 
 ---
