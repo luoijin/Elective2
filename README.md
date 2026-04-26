@@ -28,40 +28,39 @@ User-Management/
 │
 ├── backend/
 │ ├── config/
-│ │ └── db.js # Database configuration
+│ │ └── db.js
 │ ├── controllers/
-│ │ └── userController.js # User CRUD operations
+│ │ └── userController.js
 │ ├── models/
-│ │ └── usersModel.js # User schema model
+│ │ └── usersModel.js
 │ ├── routes/
-│ │ └── userRoute.js # API routes
-│ ├── .env # Environment variables
-│ ├── server.js # Express server entry
-│ └── package.json # Backend dependencies
+│ │ └── userRoute.js
+│ ├── .env
+│ ├── server.js
+│ └── package.json
 │
 ├── frontend/
 │ ├── src/
 │ │ ├── api/
-│ │ │ ├── index.js # API configuration
-│ │ │ └── user.js # User API calls
+│ │ │ ├── index.js
+│ │ │ └── user.js
 │ │ ├── components/
 │ │ │ └── GetUsers/
-│ │ │ ├── GetUsers.jsx # Main component
-│ │ │ ├── GetUsers.css # Component styles
-│ │ │ └── index.js # Component export
+│ │ │ ├── GetUsers.jsx
+│ │ │ ├── GetUsers.css
+│ │ │ └── index.js
 │ │ ├── utils/
-│ │ │ ├── index.js # Utility exports
-│ │ │ └── getUsers.js # Helper functions
-│ │ ├── styles/
-│ │ │ └── index.css # Global styles
-│ │ ├── App.jsx # Main App component
-│ │ ├── App.css # App styles
-│ │ └── main.jsx # React entry point
-│ ├── index.html # HTML template
-│ ├── vite.config.js # Vite configuration
-│ └── package.json # Frontend dependencies
+│ │ │ ├── index.js
+│ │ │ └── getUsers.js
+│ │ ├── App.jsx
+│ │ ├── App.css
+│ │ ├── index.css
+│ │ └── main.jsx
+│ ├── index.html
+│ ├── vite.config.js
+│ └── package.json
 │
-└── README.md # Project documentation
+└── README.md
 
 ---
 
